@@ -1,0 +1,60 @@
+[
+  {
+    "Name": "SubscriberID",
+    "Owner": {
+      "ID": 24,
+      "Name": "Ruchita Bachhav"
+    },
+    "Label_c": "Subscriber ID",
+    "Type_c": "DynamicDropdown",
+    "ParentKey_c": "",
+    "ActionId_c": {
+      "ID": 14202,
+      "Name": "AA10390"
+    },
+    "Placeholder_c": "",
+    "DefaultValue_c": "",
+    "Description_c": "",
+    "Placement_c": "Url",
+    "SampleValue_c": "1211503579513333800",
+    "Choices_c": "",
+    "IsRequired_c": true,
+    "Direction_c": "Input",
+    "DynamicSearchKey_c": "",
+    "DynamicDropdownKey_c": "14217.email|id",
+    "Tag": null,
+    "Entity_Property_c": {
+      "ID": 0,
+      "Name": ""
+    },
+    "Date_Format_c": "",
+    "Lookup_Entity_c": {
+      "ID": 0,
+      "Name": ""
+    },
+    "Lookup_EntityField_c": "",
+    "SupportsRefreshFields_c": false,
+    "Order_c": 1,
+    "IsSampleValueField_c": false,
+    "ShowDescriptionAboveField_c": false,
+    "IsRecordIdentifier_c": false,
+    "SupportsMultipleValues_c": false,
+    "IsJsonParsable_c": false,
+    "CreatedOn": "2022-02-17T13:24:52",
+    "CreatedBy": {
+      "ID": 24,
+      "Name": "Ruchita Bachhav"
+    },
+    "ModifiedOn": "2022-03-03T11:53:24",
+    "ModifiedBy": {
+      "ID": 24,
+      "Name": "Ruchita Bachhav"
+    },
+    "ID": 279816,
+    "DeletedOn": null,
+    "DeletedBy": {
+      "ID": 0,
+      "Name": ""
+    }
+  }
+]
