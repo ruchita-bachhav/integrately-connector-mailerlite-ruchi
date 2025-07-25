@@ -1,0 +1,85 @@
+{
+  "ID": 14612,
+  "Name": "AA10799",
+  "CreatedOn": "2022-02-24T05:31:03",
+  "CreatedBy": {
+    "ID": 4,
+    "Name": "Akshay Saundane"
+  },
+  "ModifiedOn": "2025-07-24T11:59:46",
+  "ModifiedBy": {
+    "ID": 24,
+    "Name": "Ruchita Bachhav"
+  },
+  "DeletedOn": null,
+  "DeletedBy": {
+    "ID": 0,
+    "Name": ""
+  },
+  "Owner": {
+    "ID": 4,
+    "Name": "Akshay Saundane"
+  },
+  "Type_c": "Action",
+  "Label_c": "Delete webhook",
+  "AppId_c": {
+    "ID": 1016,
+    "Name": "MailerLiteRuchi"
+  },
+  "Description_c": "",
+  "StepDescription_c": "",
+  "Url_c": "https://api.mailerlite.com/api/v2/webhooks/{{id}}",
+  "Method_c": "DELETE",
+  "ActionScript_c": "{\n  action = {\n    console.log(\"delete webhook action script updated sssssssSSSSSSSSS\");\n  };\n}",
+  "IsTestAction_c": false,
+  "IsHidden_c": true,
+  "DelegateActionId_c": {
+    "ID": 0,
+    "Name": ""
+  },
+  "DelegateActionLabel_c": "",
+  "ResourceDelegateActionId_c": {
+    "ID": 0,
+    "Name": ""
+  },
+  "RecordsContainerKey_c": "",
+  "RecordIdentifierKey_c": "",
+  "Tag": null,
+  "HasDynamicFields_c": false,
+  "Entity_c": {
+    "ID": 0,
+    "Name": ""
+  },
+  "Operation_Type_c": null,
+  "Webhook_Description_c": "",
+  "KeepAsListKey_c": "",
+  "SupportsWebhookSubscription_c": false,
+  "Webhook_Event_c": "",
+  "Record_NameKey_c": "",
+  "TestRecordDescription_c": "",
+  "PollingDelegateActionId_c": {
+    "ID": 0,
+    "Name": ""
+  },
+  "WebhookUrlPasteLink_c": "",
+  "Order_c": null,
+  "ErrorOnDuplicateEntry_c": false,
+  "CreateDelegateActionId_c": {
+    "ID": 0,
+    "Name": ""
+  },
+  "UpdateDelegateActionId_c": {
+    "ID": 0,
+    "Name": ""
+  },
+  "SupportsPagination_c": false,
+  "HasCentralizedWebhook_c": false,
+  "CentralizedWebhookConfig_c": "",
+  "DeprecatedActionId_c": {
+    "ID": 0,
+    "Name": ""
+  },
+  "IsSubsequentStepRequired_c": false,
+  "SupportsOutputFieldsFromResponse_c": false,
+  "RecordIdStorage_c": null
+}
