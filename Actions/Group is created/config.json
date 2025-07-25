@@ -1,0 +1,85 @@
+{
+  "ID": 14219,
+  "Name": "AA10407",
+  "CreatedOn": "2022-02-15T06:43:31",
+  "CreatedBy": {
+    "ID": 24,
+    "Name": "Ruchita Bachhav"
+  },
+  "ModifiedOn": "2022-03-07T06:12:01",
+  "ModifiedBy": {
+    "ID": 23,
+    "Name": "Purva Ner"
+  },
+  "DeletedOn": null,
+  "DeletedBy": {
+    "ID": 0,
+    "Name": ""
+  },
+  "Owner": {
+    "ID": 24,
+    "Name": "Ruchita Bachhav"
+  },
+  "Type_c": "Trigger",
+  "Label_c": "Group is created",
+  "AppId_c": {
+    "ID": 1016,
+    "Name": "MailerLiteRuchi"
+  },
+  "Description_c": "",
+  "StepDescription_c": "",
+  "Url_c": "https://api.mailerlite.com/api/v2/groups?order_by[date]=desc",
+  "Method_c": "GET",
+  "ActionScript_c": "var action = {\n    post: function(response) {\n        var result = app.isValid(response.Body, response.StatusCode);\n\n        if (result.isError) {\n            return app.returnError(result);\n        } else\n        {\n            return success(result.body);\n        }\n    }\n};",
+  "IsTestAction_c": false,
+  "IsHidden_c": false,
+  "DelegateActionId_c": {
+    "ID": 0,
+    "Name": ""
+  },
+  "DelegateActionLabel_c": "",
+  "ResourceDelegateActionId_c": {
+    "ID": 0,
+    "Name": ""
+  },
+  "RecordsContainerKey_c": "",
+  "RecordIdentifierKey_c": "id",
+  "Tag": null,
+  "HasDynamicFields_c": false,
+  "Entity_c": {
+    "ID": 0,
+    "Name": ""
+  },
+  "Operation_Type_c": null,
+  "Webhook_Description_c": "",
+  "KeepAsListKey_c": "",
+  "SupportsWebhookSubscription_c": false,
+  "Webhook_Event_c": "",
+  "Record_NameKey_c": "",
+  "TestRecordDescription_c": "",
+  "PollingDelegateActionId_c": {
+    "ID": 0,
+    "Name": ""
+  },
+  "WebhookUrlPasteLink_c": null,
+  "Order_c": null,
+  "ErrorOnDuplicateEntry_c": false,
+  "CreateDelegateActionId_c": {
+    "ID": 0,
+    "Name": ""
+  },
+  "UpdateDelegateActionId_c": {
+    "ID": 0,
+    "Name": ""
+  },
+  "SupportsPagination_c": false,
+  "HasCentralizedWebhook_c": false,
+  "CentralizedWebhookConfig_c": null,
+  "DeprecatedActionId_c": {
+    "ID": 0,
+    "Name": ""
+  },
+  "IsSubsequentStepRequired_c": false,
+  "SupportsOutputFieldsFromResponse_c": false,
+  "RecordIdStorage_c": null
+}
