@@ -1,0 +1,85 @@
+{
+  "ID": 14795,
+  "Name": "AA10982",
+  "CreatedOn": "2022-03-01T08:22:10",
+  "CreatedBy": {
+    "ID": 24,
+    "Name": "Ruchita Bachhav"
+  },
+  "ModifiedOn": "2022-03-03T12:37:49",
+  "ModifiedBy": {
+    "ID": 24,
+    "Name": "Ruchita Bachhav"
+  },
+  "DeletedOn": null,
+  "DeletedBy": {
+    "ID": 0,
+    "Name": ""
+  },
+  "Owner": {
+    "ID": 24,
+    "Name": "Ruchita Bachhav"
+  },
+  "Type_c": "InstantTrigger",
+  "Label_c": "Subscriber is unsubscribed",
+  "AppId_c": {
+    "ID": 1016,
+    "Name": "MailerLiteRuchi"
+  },
+  "Description_c": "",
+  "StepDescription_c": "Subscriber unsubscribed",
+  "Url_c": "",
+  "Method_c": "GET",
+  "ActionScript_c": "var action={\n    subscribe: function (request) {\n        var body = {};\n        body.url = request.TargetUrl;\n        body.event = \"subscriber.unsubscribe\";\n        var subscribeResponse = executeAction('Create Webhook', JSON.stringify(body));\n        var subscribeBody = JSON.parse(subscribeResponse);\n        return {\n            Success: true,\n            Data: JSON.stringify({\n                WebhookId: subscribeBody.id,\n            })\n        };\n    },\n    unsubscribe: function (request) {\n        var unsubscribeResponse = executeAction('Delete webhook', JSON.stringify({ id: JSON.parse(request.SubscriptionData).WebhookId }));\n        return { Success: true };\n    }\n};",
+  "IsTestAction_c": false,
+  "IsHidden_c": false,
+  "DelegateActionId_c": {
+    "ID": 0,
+    "Name": ""
+  },
+  "DelegateActionLabel_c": "",
+  "ResourceDelegateActionId_c": {
+    "ID": 0,
+    "Name": ""
+  },
+  "RecordsContainerKey_c": "",
+  "RecordIdentifierKey_c": "",
+  "Tag": null,
+  "HasDynamicFields_c": false,
+  "Entity_c": {
+    "ID": 0,
+    "Name": ""
+  },
+  "Operation_Type_c": null,
+  "Webhook_Description_c": "",
+  "KeepAsListKey_c": "",
+  "SupportsWebhookSubscription_c": true,
+  "Webhook_Event_c": "subscriber.unsubscribe",
+  "Record_NameKey_c": "",
+  "TestRecordDescription_c": "",
+  "PollingDelegateActionId_c": {
+    "ID": 0,
+    "Name": ""
+  },
+  "WebhookUrlPasteLink_c": null,
+  "Order_c": null,
+  "ErrorOnDuplicateEntry_c": false,
+  "CreateDelegateActionId_c": {
+    "ID": 0,
+    "Name": ""
+  },
+  "UpdateDelegateActionId_c": {
+    "ID": 0,
+    "Name": ""
+  },
+  "SupportsPagination_c": false,
+  "HasCentralizedWebhook_c": false,
+  "CentralizedWebhookConfig_c": null,
+  "DeprecatedActionId_c": {
+    "ID": 0,
+    "Name": ""
+  },
+  "IsSubsequentStepRequired_c": false,
+  "SupportsOutputFieldsFromResponse_c": false,
+  "RecordIdStorage_c": null
+}
