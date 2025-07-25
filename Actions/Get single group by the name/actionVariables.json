@@ -1,0 +1,118 @@
+[
+  {
+    "Name": "group_name",
+    "Owner": {
+      "ID": 24,
+      "Name": "Ruchita Bachhav"
+    },
+    "Label_c": "Group Name",
+    "Type_c": "DynamicDropdown",
+    "ParentKey_c": "",
+    "ActionId_c": {
+      "ID": 14220,
+      "Name": "AA10408"
+    },
+    "Placeholder_c": "",
+    "DefaultValue_c": "",
+    "Description_c": "",
+    "Placement_c": "Body",
+    "SampleValue_c": "CompanyHub",
+    "Choices_c": "",
+    "IsRequired_c": true,
+    "Direction_c": "Input",
+    "DynamicSearchKey_c": "",
+    "DynamicDropdownKey_c": "14219.name|name",
+    "Tag": null,
+    "Entity_Property_c": {
+      "ID": 0,
+      "Name": ""
+    },
+    "Date_Format_c": "",
+    "Lookup_Entity_c": {
+      "ID": 0,
+      "Name": ""
+    },
+    "Lookup_EntityField_c": "",
+    "SupportsRefreshFields_c": false,
+    "Order_c": 1,
+    "IsSampleValueField_c": false,
+    "ShowDescriptionAboveField_c": false,
+    "IsRecordIdentifier_c": false,
+    "SupportsMultipleValues_c": false,
+    "IsJsonParsable_c": false,
+    "CreatedOn": "2022-02-15T06:45:32",
+    "CreatedBy": {
+      "ID": 24,
+      "Name": "Ruchita Bachhav"
+    },
+    "ModifiedOn": "2022-02-23T10:56:55",
+    "ModifiedBy": {
+      "ID": 24,
+      "Name": "Ruchita Bachhav"
+    },
+    "ID": 278540,
+    "DeletedOn": null,
+    "DeletedBy": {
+      "ID": 0,
+      "Name": ""
+    }
+  },
+  {
+    "Name": "Content-Type",
+    "Owner": {
+      "ID": 24,
+      "Name": "Ruchita Bachhav"
+    },
+    "Label_c": "Content Type",
+    "Type_c": "String",
+    "ParentKey_c": "",
+    "ActionId_c": {
+      "ID": 14220,
+      "Name": "AA10408"
+    },
+    "Placeholder_c": "",
+    "DefaultValue_c": "application/json",
+    "Description_c": "",
+    "Placement_c": "Header",
+    "SampleValue_c": "application/json",
+    "Choices_c": "",
+    "IsRequired_c": false,
+    "Direction_c": "Input",
+    "DynamicSearchKey_c": "",
+    "DynamicDropdownKey_c": "",
+    "Tag": null,
+    "Entity_Property_c": {
+      "ID": 0,
+      "Name": ""
+    },
+    "Date_Format_c": "",
+    "Lookup_Entity_c": {
+      "ID": 0,
+      "Name": ""
+    },
+    "Lookup_EntityField_c": "",
+    "SupportsRefreshFields_c": false,
+    "Order_c": null,
+    "IsSampleValueField_c": false,
+    "ShowDescriptionAboveField_c": false,
+    "IsRecordIdentifier_c": false,
+    "SupportsMultipleValues_c": false,
+    "IsJsonParsable_c": false,
+    "CreatedOn": "2022-02-15T06:45:08",
+    "CreatedBy": {
+      "ID": 24,
+      "Name": "Ruchita Bachhav"
+    },
+    "ModifiedOn": "2022-02-15T06:45:08",
+    "ModifiedBy": {
+      "ID": 24,
+      "Name": "Ruchita Bachhav"
+    },
+    "ID": 278539,
+    "DeletedOn": null,
+    "DeletedBy": {
+      "ID": 0,
+      "Name": ""
+    }
+  }
+]
