@@ -1,0 +1,176 @@
+[
+  {
+    "Name": "event",
+    "Owner": {
+      "ID": 4,
+      "Name": "Akshay Saundane"
+    },
+    "Label_c": "Webhook Eventsssssss",
+    "Type_c": "String",
+    "ParentKey_c": "",
+    "ActionId_c": {
+      "ID": 14611,
+      "Name": "AA10798"
+    },
+    "Placeholder_c": "",
+    "DefaultValue_c": "",
+    "Description_c": "",
+    "Placement_c": "Body",
+    "SampleValue_c": "subscriber.create",
+    "Choices_c": "",
+    "IsRequired_c": false,
+    "Direction_c": "Input",
+    "DynamicSearchKey_c": "",
+    "DynamicDropdownKey_c": "",
+    "Tag": null,
+    "Entity_Property_c": {
+      "ID": 0,
+      "Name": ""
+    },
+    "Date_Format_c": "",
+    "Lookup_Entity_c": {
+      "ID": 0,
+      "Name": ""
+    },
+    "Lookup_EntityField_c": "",
+    "SupportsRefreshFields_c": false,
+    "Order_c": 2,
+    "IsSampleValueField_c": false,
+    "ShowDescriptionAboveField_c": false,
+    "IsRecordIdentifier_c": false,
+    "SupportsMultipleValues_c": false,
+    "IsJsonParsable_c": false,
+    "CreatedOn": "2022-02-24T05:30:58",
+    "CreatedBy": {
+      "ID": 4,
+      "Name": "Akshay Saundane"
+    },
+    "ModifiedOn": "2025-07-24T10:56:23",
+    "ModifiedBy": {
+      "ID": 24,
+      "Name": "Ruchita Bachhav"
+    },
+    "ID": 283183,
+    "DeletedOn": null,
+    "DeletedBy": {
+      "ID": 0,
+      "Name": ""
+    }
+  },
+  {
+    "Name": "url",
+    "Owner": {
+      "ID": 4,
+      "Name": "Akshay Saundane"
+    },
+    "Label_c": "Webhook URL sss",
+    "Type_c": "String",
+    "ParentKey_c": "",
+    "ActionId_c": {
+      "ID": 14611,
+      "Name": "AA10798"
+    },
+    "Placeholder_c": "",
+    "DefaultValue_c": "",
+    "Description_c": "",
+    "Placement_c": "Body",
+    "SampleValue_c": "https://test-webhooks.integrately.com/a/webhooks/dc497f393e9343f3ae79ef99355cf5cf",
+    "Choices_c": "",
+    "IsRequired_c": false,
+    "Direction_c": "Input",
+    "DynamicSearchKey_c": "",
+    "DynamicDropdownKey_c": "",
+    "Tag": null,
+    "Entity_Property_c": {
+      "ID": 0,
+      "Name": ""
+    },
+    "Date_Format_c": "",
+    "Lookup_Entity_c": {
+      "ID": 0,
+      "Name": ""
+    },
+    "Lookup_EntityField_c": "",
+    "SupportsRefreshFields_c": false,
+    "Order_c": 1,
+    "IsSampleValueField_c": false,
+    "ShowDescriptionAboveField_c": false,
+    "IsRecordIdentifier_c": false,
+    "SupportsMultipleValues_c": false,
+    "IsJsonParsable_c": false,
+    "CreatedOn": "2022-02-24T05:30:58",
+    "CreatedBy": {
+      "ID": 4,
+      "Name": "Akshay Saundane"
+    },
+    "ModifiedOn": "2025-07-24T10:56:23",
+    "ModifiedBy": {
+      "ID": 24,
+      "Name": "Ruchita Bachhav"
+    },
+    "ID": 283182,
+    "DeletedOn": null,
+    "DeletedBy": {
+      "ID": 0,
+      "Name": ""
+    }
+  },
+  {
+    "Name": "Content-Type",
+    "Owner": {
+      "ID": 4,
+      "Name": "Akshay Saundane"
+    },
+    "Label_c": "Content Type",
+    "Type_c": "String",
+    "ParentKey_c": "",
+    "ActionId_c": {
+      "ID": 14611,
+      "Name": "AA10798"
+    },
+    "Placeholder_c": "",
+    "DefaultValue_c": "application/json",
+    "Description_c": "",
+    "Placement_c": "Header",
+    "SampleValue_c": "application/json",
+    "Choices_c": "",
+    "IsRequired_c": false,
+    "Direction_c": "Input",
+    "DynamicSearchKey_c": "",
+    "DynamicDropdownKey_c": "",
+    "Tag": null,
+    "Entity_Property_c": {
+      "ID": 0,
+      "Name": ""
+    },
+    "Date_Format_c": "",
+    "Lookup_Entity_c": {
+      "ID": 0,
+      "Name": ""
+    },
+    "Lookup_EntityField_c": "",
+    "SupportsRefreshFields_c": false,
+    "Order_c": null,
+    "IsSampleValueField_c": false,
+    "ShowDescriptionAboveField_c": false,
+    "IsRecordIdentifier_c": false,
+    "SupportsMultipleValues_c": false,
+    "IsJsonParsable_c": false,
+    "CreatedOn": "2022-02-24T05:30:58",
+    "CreatedBy": {
+      "ID": 4,
+      "Name": "Akshay Saundane"
+    },
+    "ModifiedOn": "2025-07-24T05:26:54",
+    "ModifiedBy": {
+      "ID": 24,
+      "Name": "Ruchita Bachhav"
+    },
+    "ID": 283181,
+    "DeletedOn": null,
+    "DeletedBy": {
+      "ID": 0,
+      "Name": ""
+    }
+  }
+]
