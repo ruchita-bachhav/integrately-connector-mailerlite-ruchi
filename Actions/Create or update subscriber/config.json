@@ -1,0 +1,85 @@
+{
+  "ID": 14195,
+  "Name": "AA10383",
+  "CreatedOn": "2022-02-15T04:56:04",
+  "CreatedBy": {
+    "ID": 24,
+    "Name": "Ruchita Bachhav"
+  },
+  "ModifiedOn": "2022-03-28T10:55:48",
+  "ModifiedBy": {
+    "ID": 25,
+    "Name": "Harshal Yeolekar"
+  },
+  "DeletedOn": null,
+  "DeletedBy": {
+    "ID": 0,
+    "Name": ""
+  },
+  "Owner": {
+    "ID": 24,
+    "Name": "Ruchita Bachhav"
+  },
+  "Type_c": "Action",
+  "Label_c": "Create or update subscriber",
+  "AppId_c": {
+    "ID": 1016,
+    "Name": "MailerLiteRuchi"
+  },
+  "Description_c": "",
+  "StepDescription_c": "Subscriber is created",
+  "Url_c": "https://api.mailerlite.com/api/v2/subscribers",
+  "Method_c": "POST",
+  "ActionScript_c": "var action={\r\n    pre:function(request){\r\n        var requestBody=JSON.parse(request.Body);\r\n         __Logger.logPair(\"Raw Request\",request.Body);\r\n        __Logger.logPair(\"Modified Request\",JSON.stringify(requestBody));\r\n        return{\r\n            Body:JSON.stringify(requestBody)\r\n        };\r\n    },\r\n    post:function(response){\r\n        var result=app.isValid(response.Body, response.StatusCode);\r\n        if(result.isError) {\r\n            return app.returnError(result);\r\n        }\r\n            return success(result.body);\r\n    },\r\n\tinputFields:function(){\r\n         var fields=executeAction(\"Get fields\");\r\n        return fields;\r\n    }\r\n};",
+  "IsTestAction_c": false,
+  "IsHidden_c": false,
+  "DelegateActionId_c": {
+    "ID": 0,
+    "Name": ""
+  },
+  "DelegateActionLabel_c": "",
+  "ResourceDelegateActionId_c": {
+    "ID": 0,
+    "Name": ""
+  },
+  "RecordsContainerKey_c": "",
+  "RecordIdentifierKey_c": "id",
+  "Tag": null,
+  "HasDynamicFields_c": true,
+  "Entity_c": {
+    "ID": 0,
+    "Name": ""
+  },
+  "Operation_Type_c": null,
+  "Webhook_Description_c": "",
+  "KeepAsListKey_c": "",
+  "SupportsWebhookSubscription_c": false,
+  "Webhook_Event_c": "",
+  "Record_NameKey_c": "",
+  "TestRecordDescription_c": "",
+  "PollingDelegateActionId_c": {
+    "ID": 0,
+    "Name": ""
+  },
+  "WebhookUrlPasteLink_c": null,
+  "Order_c": null,
+  "ErrorOnDuplicateEntry_c": false,
+  "CreateDelegateActionId_c": {
+    "ID": 0,
+    "Name": ""
+  },
+  "UpdateDelegateActionId_c": {
+    "ID": 0,
+    "Name": ""
+  },
+  "SupportsPagination_c": false,
+  "HasCentralizedWebhook_c": false,
+  "CentralizedWebhookConfig_c": null,
+  "DeprecatedActionId_c": {
+    "ID": 0,
+    "Name": ""
+  },
+  "IsSubsequentStepRequired_c": false,
+  "SupportsOutputFieldsFromResponse_c": false,
+  "RecordIdStorage_c": null
+}
