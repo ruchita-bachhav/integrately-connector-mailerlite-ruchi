@@ -1,0 +1,57 @@
+{
+  "Name": "MailerLiteRuchi",
+  "Owner": {
+    "ID": 24,
+    "Name": "Ruchita Bachhav"
+  },
+  "Label_c": "MailerLite Ruchita",
+  "LogoUrl_c": "https://integrately-app-logos.s3-us-west-2.amazonaws.com/mailerlite.png",
+  "IsStandard_c": false,
+  "Description_c": "This is test desc for mailerlite 12346",
+  "AuthType_c": "ApiKey",
+  "AuthMapping_c": "{\n\"X-MailerLite-ApiKey\":\"{{apikey}}\"\n}",
+  "AuthTitleMapping_c": "apikey",
+  "AuthTokenPlacement_c": "Header",
+  "ClientId_c": "",
+  "ClientSecret_c": "",
+  "AuthorizationUrl_c": "",
+  "AccessTokenUrl_c": "",
+  "RequestTokenUrl_c": "",
+  "RefreshTokenUrl_c": "",
+  "Scopes_c": "",
+  "IsPublic_c": false,
+  "Tag": "Test-Deployed",
+  "OAuth_AppDashboardUrl_c": null,
+  "API_DocumentationUrl_c": "https://developers.mailerlite.com/docs",
+  "Is_Module_c": false,
+  "AuthVideoUrl_c": null,
+  "AppWebhookDescription_c": "",
+  "Primary_Color_c": "",
+  "HasCustomOAuth_c": false,
+  "DeAuthorizationUrl_c": "",
+  "Website_link_c": null,
+  "Slug_c": "mailerlite-ruchi",
+  "IsPremium_c": false,
+  "IntegrationPageUrl_c": null,
+  "IntegratelyTags_c": null,
+  "Current_Developer_c": {
+    "ID": 0,
+    "Name": ""
+  },
+  "CreatedOn": "2022-02-14T12:03:48",
+  "CreatedBy": {
+    "ID": 24,
+    "Name": "Ruchita Bachhav"
+  },
+  "ModifiedOn": "2025-07-24T10:56:34",
+  "ModifiedBy": {
+    "ID": 24,
+    "Name": "Ruchita Bachhav"
+  },
+  "ID": 1016,
+  "DeletedOn": null,
+  "DeletedBy": {
+    "ID": 0,
+    "Name": ""
+  }
+}
